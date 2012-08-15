@@ -89,6 +89,7 @@
       for (var i = 0; i < text.length; i++) {
         typeChar(i);
       }
+      alert(i);
       return $el.queue(startBlink);  
     },
     echo: function(text) {
@@ -112,10 +113,7 @@
     wait: function(millis) {
       return $el.delay(millis);
     },
-    callback: function(fnc) {
-      alert(fnc)
-      return ;
-    },
+
     speed: function(speed) {
       if (speed === 'fast') {
         typeDelay = 20;
