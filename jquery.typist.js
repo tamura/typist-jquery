@@ -112,6 +112,10 @@
     wait: function(millis) {
       return $el.delay(millis);
     },
+    callback: function(fnc) {
+      alert(fnc)
+      return ;
+    },
     speed: function(speed) {
       if (speed === 'fast') {
         typeDelay = 20;
