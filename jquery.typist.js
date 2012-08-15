@@ -108,7 +108,7 @@
       for (var i = 0; i < text.length; i++) {
         typeChar(i);
       }
-      alert(234234)
+
       return $el;
     },
     wait: function(millis) {
